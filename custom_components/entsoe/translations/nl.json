@@ -2,37 +2,37 @@
   "config": {
     "step": {
       "user": {
-          "description": "Please add the ENTSO-e Transparency Platform API key and area",
+          "description": "Geef hier de API-key en het gebruiksgebied van het ENTSO-e Transparantieplatform.",
           "data": {
-            "api_key": "Your API Key",
-            "area": "Area*",
-            "modifyer": "Price Modifyer Template (Optional)",
-            "name": "Name (Optional)"
+            "api_key": "Jouw API Key",
+            "area": "Gebied*",
+            "modifyer": "Sjabloon voor prijswijziging (optioneel)",
+            "name": "Naam (optioneel)"
           }
       }
     },
     "error": {
-      "invalid_template": "Invalid Template, Check https://github.com/JaccoR/hass-entso-e",
-      "missing_current_price": "'current_price' is missing from the template",
-      "already_configured": "Integration instance with the same name already exists"
+      "invalid_template": "Ongeldige sjabloon, zie https://github.com/JaccoR/hass-entso-e",
+      "missing_current_price": "'current_price' ontbreekt in het sjabloon",
+      "already_configured": "Er bestaat al een integratie-sessie met de gekozen naam"
   }
   },
   "options": {
     "step": {
       "init": {
-        "description": "Please add the ENTSO-e Transparency Platform API key and area",
+        "description": "Geef hier de API-key en het gebruiksgebied van het ENTSO-e Transparantieplatform.",
         "data": {
-          "api_key": "Your API Key",
-          "area": "Area*",
-          "modifyer": "Price Modifyer Template (Optional)",
-          "name": "Name (Optional)"
+          "api_key": "Jouw API Key",
+          "area": "Gebied*",
+          "modifyer": "Sjabloon voor prijswijziging (optioneel)",
+          "name": "Naam (optioneel)"
         }
       }
     },
     "error": {
-      "invalid_template": "Invalid Template, Check https://github.com/JaccoR/hass-entso-e",
-      "missing_current_price": "'current_price' is missing from the template",
-      "already_configured": "Integration instance with the same name already exists"
+      "invalid_template": "Ongeldige sjabloon, zie https://github.com/JaccoR/hass-entso-e",
+      "missing_current_price": "'current_price' ontbreekt in het sjabloon",
+      "already_configured": "Er bestaat al een integratie-sessie met de gekozen naam"
   }
   }
 }
